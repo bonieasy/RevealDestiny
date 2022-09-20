@@ -2,31 +2,31 @@ const elementFeedback = document.querySelector("#feedback") //constante criada p
 const inputQuestion = document.querySelector("#inputQuestion") // Constante criada para pegar pergunta do usuario no input
 const btnQuestion = document.querySelector("#btnQuestion") // constante do botao Fazer pergunta
 const answers = [
-    "Certeza!",
-  "Não tenho tanta certeza.",
-  "É decididamente assim.",
-  "Não conte com isso.",
-  "Sem dúvidas!",
-  "Pergunte novamente mais tarde.",
-  "Sim, definitivamente!",
-  "Minha resposta é não.",
-  "Você pode contar com isso.",
-  "Melhor não te dizer agora.",
-  "A meu ver, sim.",
-  "Minhas fontes dizem não.",
-  "Provavelmente.",
-  "Não é possível prever agora.",
-  "Perspectiva boa.",
-  "As perspectivas não são tão boas.",
-  "Sim.",
-  "Concentre-se e pergunte novamente.",
-  "Sinais apontam que sim.",
+    "Sure!",
+  "I'm not so sure.",
+  "It's definitely like this.",
+  "Don't count on it.",
+  "No doubts!",
+  "Ask again later.",
+  "Yes, definitely!",
+  "My answer is no.",
+  "You can count on that..",
+  "Better not to tell you now.",
+  "In my opinion, yes.",
+  "My sources says no Minhas fontes dizem não.",
+  "Probably.",
+  "It is not possible to predict now.",
+  "Good Perspective.",
+  "Prospects are not so good.",
+  "Yes.",
+  "Concentrate and ask again.",
+  "Signs point to yes.",
 ]
 
 // clicar em fazer pergunta
 function makeQuestion() {
     if (inputQuestion.value == ""){ // Se campo input vazio, apresenta msg
-    alert ("Digite sua pergunta")
+    alert ("Type your question")
     return //parar execucao da funcao
 }
 
