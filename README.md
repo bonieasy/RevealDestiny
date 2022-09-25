@@ -1,5 +1,5 @@
 <div align="center">
-# Reveal your destiny
+  <h1>Reveal your destiny</h1>
 
 Simple system that can reveal your destiny, just type your question and your destiny will be revealed.
 
